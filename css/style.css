@@ -35,7 +35,7 @@ h3 {
 
 .quote{
 		text-align: center;
-		font-size: 3em;
+		font-size: 4vw;
 		padding-top: 10%;
 		color: #1C166E;
 }
@@ -49,7 +49,7 @@ h3 {
 }
 
 .about2 {
-	text-align: left;
+	text-align: center;
 }
 
 .skills  {

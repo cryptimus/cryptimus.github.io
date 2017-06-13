@@ -52,6 +52,10 @@ h3 {
 	text-align: center;
 }
 
+.about > div > p {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
 .skills  {
 	text-align: center;
 }
@@ -132,6 +136,7 @@ h3 {
 .btn {
 	position: relative;
 	transform: translate(0%, +700%);
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 .contact {
@@ -182,6 +187,7 @@ h3 {
     height: 75px;
     background: #2f3241;
     text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	color: #F6EFEA;
 	margin: 0 -1%;
 }

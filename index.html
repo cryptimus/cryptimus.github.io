@@ -11,8 +11,8 @@
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
-	  <link rel="stylesheet" href="css/style.css">
-
+	  <link href="css/style.css" id="pagestyle" rel="stylesheet" >
+	   <script src="script/script1.js"></script> 
   
 </head>
 
@@ -45,6 +45,12 @@
 	
 	<div class="container-fluid main">
 	
+	<div class="theme" id="theme">
+		<button type="button" class="btn" onclick="toggle()">
+			<i class="fa fa-cog fa-spin" style="font-size:36px;"></i>
+		</button>
+	</div>
+	
 	<div class="banner" id="banner">
 		<p class="quote">
 			<i>"Things are not always <span style="color: black;">#000000</span> and <span style="color: white;">#FFFFFF"</span></i><br/><br/>
@@ -53,6 +59,7 @@
 		</p>
 		
 	</div>
+	
 	
 	<div class="about row" id="about">
 		<br/>

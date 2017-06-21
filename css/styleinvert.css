@@ -3,10 +3,10 @@ body {
 	margin: 0;
     padding: 0;
     border: 0;
-    color: #1E1D1D;
+    color: #eae6e6;
 	font-size: 2em;
+	background: #191818;
 }
-
 
 .navbar-brand {
 	font-size:1.7em;
@@ -15,7 +15,7 @@ body {
 hr {
 	margin-left:20%;
 	margin-right:20%;
-	border: 1px solid #3a585f;
+	border: 1px solid #eae6e6;
 }
 
 h1 {
@@ -31,8 +31,9 @@ h3 {
 	left: -10px;
     top: -280px;
 	position: fixed;
-	color:#222222;
+	color:#DDDDDD;
 }
+
 
 .banner {
 		background-image: url("../image/banner.jpg");
@@ -53,6 +54,7 @@ h3 {
 
 .college {
 	margin-bottom: -50px;
+	filter:invert(100%);
 }
 
 .about2 {
@@ -79,6 +81,7 @@ h3 {
     transition: all 0.3s ease;
 	padding: 30px;
 	width: 300px;
+	filter:invert(100%);
 }
 .skillicon:hover {
     transform: scale(1.2);
@@ -122,7 +125,7 @@ h3 {
   width: 100%;
   opacity: .95;
   transition: .5s ease;
-  background-color: #7a0099;
+  background-color: #0ea320;
   border-radius: 10px;
 }
 
@@ -132,7 +135,6 @@ h3 {
 }
 
 .text {
-  color: white;
   font-size: 3em;
   position: absolute;
   top: 50%;
@@ -144,11 +146,12 @@ h3 {
 	position: relative;
 	transform: translate(0%, +700%);
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #666666;
 }
 
 .contact {
     text-align: center;
-    background: linear-gradient(to top left, #24C6DC, #514A9D);
+    background: linear-gradient(to top left, #DB3923, #AEB562);
 	margin-top: 50px;
 	margin-left: -1%;
 	margin-right: -1%; 
@@ -170,7 +173,7 @@ h3 {
 .contact-icons{
 	text-decoration: none;
     padding: 20px;
-    color: #74b1be;
+    color: #8B4E41;
 	transition: all 0.3s ease;
 }
 

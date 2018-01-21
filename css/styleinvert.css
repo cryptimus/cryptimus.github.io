@@ -125,12 +125,12 @@ h3 {
   width: 100%;
   opacity: .95;
   transition: .5s ease;
-  background-color: #0ea320;
+  background-color: #AEB562;
   border-radius: 10px;
 }
 
 .worki:hover .overlay {
-  opacity: 0;
+  opacity: .6;
   box-shadow: 10px 10px 25px rgba(46,61,73,0.7);
 }
 
@@ -183,13 +183,20 @@ h3 {
 
 .top {
     text-align: center;
+	left: 95%;
+    top: 90%;
+	position: fixed;
+
+	display: none;
+	
 }
 
 .topicon {
     transition: all 0.3s ease;
+	
 }
 .topicon:hover {
-    transform: scale(2);
+    transform: scale(1.2);
     transition-duration: 0.2s;
 }
 

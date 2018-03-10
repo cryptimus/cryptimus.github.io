@@ -27,7 +27,7 @@ h3 {
 }
 
 .theme {
-	
+
 	left: -10px;
     top: -280px;
 	position: fixed;
@@ -37,6 +37,10 @@ h3 {
 .banner {
 		background-image: url("../image/banner.jpg");
 		background-size: cover;
+		height: 100%;
+	 background-attachment: fixed;
+	 background-position: center;
+	 background-repeat: no-repeat;
 		margin: 0 -1%;
 }
 
@@ -151,7 +155,7 @@ h3 {
     background: linear-gradient(to top left, #24C6DC, #514A9D);
 	margin-top: 50px;
 	margin-left: -1%;
-	margin-right: -1%; 
+	margin-right: -1%;
     height: auto;
 	color: #F6EFEA;
 }
@@ -185,12 +189,12 @@ h3 {
 	position: fixed;
 
 	display: none;
-	
+
 }
 
 .topicon {
     transition: all 0.3s ease;
-	
+
 }
 .topicon:hover {
     transform: scale(1.2);

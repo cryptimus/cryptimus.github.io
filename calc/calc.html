@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  
+	  <link href="css/calcstyle.css"  rel="stylesheet" >
+	  <script src="script/calcscript.js"></script>
+
+</head>
+
+<body >
+  
+
+	<div class="mainwrap container-fluid">
+		<div class="header" id="header">
+			<h1>CALCULATOR</h1>
+		</div>
+
+		<div>
+			<h3>m.o.k.u.</h3>
+		</div>
+
+		<div>
+			<p class="input" id="input">0</p>
+		</div>
+
+		<div>
+			<input style="width: 80%;" class="button" type="button" onclick="setreset()" value="C">
+		</div>
+		
+		
+		<div>
+			<input class="button" type="button" onclick="getinput(7)" value="7"> 
+			<input class="button" type="button" onclick="getinput(8)" value="8"> 
+			<input class="button" type="button" onclick="getinput(9)" value="9">
+			<input class="button" type="button" onclick="setopt('/')" value="/">
+		</div>
+		<div>
+			<input class="button" type="button" onclick="getinput(4)" value="4"> 
+			<input class="button" type="button" onclick="getinput(5)" value="5"> 
+			<input class="button" type="button" onclick="getinput(6)" value="6">
+			<input class="button" type="button" onclick="setopt('*')" value="x">
+		</div>
+		<div>
+			<input class="button" type="button" onclick="getinput(1)" value="1"> 
+			<input class="button" type="button" onclick="getinput(2)" value="2"> 
+			<input class="button" type="button" onclick="getinput(3)" value="3">
+			<input class="button" type="button" onclick="setopt('-')" value="-">
+		</div>
+		<div>
+			<input class="button" type="button" onclick="getinput(0)" value="0"> 
+			<input class="button" type="button" onclick="putdec()" value="."> 
+			<input class="button" type="button" onclick="setopt('+')" value="+">
+			<input class="button" type="button" onclick="getres()" value="=">
+		</div>
+		
+		
+
+    </div>
+
+</body>
+</html>

@@ -38,9 +38,9 @@ h3 {
 		background-image: url("../image/banner.jpg");
 		background-size: cover;
 		height: 100%;
-	 background-position: center;
-	 background-repeat: no-repeat;
-		margin: 0 -1%;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0 -1%;
 }
 
 .quote{
@@ -208,3 +208,37 @@ h3 {
 	color: #F6EFEA;
 	margin: 0 -1%;
 }
+
+.invertfilter {
+    filter:invert(100%);
+}
+
+.invertbody {
+    color: #eae6e6;
+    background: #191818;
+}
+
+.inverthr {
+    border: 1px solid #eae6e6;
+}
+
+.inverttheme {
+    color:#DDDDDD;
+}
+
+.invertoverlay {
+    background-color: #AEB562;
+}
+
+.invertbtn {
+    color: #666666;
+}
+
+.invertcontact {
+    background: linear-gradient(to top left, #DB3923, #AEB562);
+}
+
+.invertcontact-icons {
+    color: #8B4E41;
+}
+
